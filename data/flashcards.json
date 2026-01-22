@@ -1,0 +1,2304 @@
+[
+  {
+    "question": "to be (essential/permanent quality)",
+    "answer": "ser",
+    "card_state": {
+      "card_id": 1769079389151,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-30T11:02:05.848333+00:00",
+      "last_review": "2026-01-22T11:02:05.848333+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.153051+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:02:05.848333+00:00",
+        "state": 2,
+        "due": "2026-01-30T11:02:05.848333+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to have (to do something, auxiliary verb)",
+    "answer": "haber",
+    "card_state": {
+      "card_id": 1769079389153,
+      "state": 2,
+      "step": null,
+      "stability": 2.3065,
+      "difficulty": 2.111214235785395,
+      "due": "2026-01-24T11:13:32.264003+00:00",
+      "last_review": "2026-01-22T11:13:32.264003+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.154801+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:02:20.648379+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:12:20.648379+00:00"
+      },
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:13:32.264003+00:00",
+        "state": 2,
+        "due": "2026-01-24T11:13:32.264003+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to be (health, location, state)",
+    "answer": "estar",
+    "card_state": {
+      "card_id": 1769079389155,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-31T11:02:34.485917+00:00",
+      "last_review": "2026-01-22T11:02:34.485917+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.156763+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:02:34.485917+00:00",
+        "state": 2,
+        "due": "2026-01-31T11:02:34.485917+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to have",
+    "answer": "tener",
+    "card_state": {
+      "card_id": 1769079389157,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-02-01T11:02:40.140727+00:00",
+      "last_review": "2026-01-22T11:02:40.140727+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.158476+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:02:40.140727+00:00",
+        "state": 2,
+        "due": "2026-02-01T11:02:40.140727+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to do, make",
+    "answer": "hacer",
+    "card_state": {
+      "card_id": 1769079389158,
+      "state": 2,
+      "step": null,
+      "stability": 3.946054067969477,
+      "difficulty": 1.0,
+      "due": "2026-01-27T11:14:25.672585+00:00",
+      "last_review": "2026-01-22T11:14:25.672585+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.159988+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:02:48.127688+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:12:48.127688+00:00"
+      },
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:14:25.672585+00:00",
+        "state": 2,
+        "due": "2026-01-27T11:14:25.672585+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to be able, can",
+    "answer": "poder",
+    "card_state": {
+      "card_id": 1769079389160,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-29T11:02:56.177842+00:00",
+      "last_review": "2026-01-22T11:02:56.177842+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.161487+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:02:56.177842+00:00",
+        "state": 2,
+        "due": "2026-01-29T11:02:56.177842+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to say, tell",
+    "answer": "decir",
+    "card_state": {
+      "card_id": 1769079389161,
+      "state": 2,
+      "step": null,
+      "stability": 3.946054067969477,
+      "difficulty": 1.0,
+      "due": "2026-01-27T11:16:30.096692+00:00",
+      "last_review": "2026-01-22T11:16:30.096692+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.162994+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:03:05.791061+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:13:05.791061+00:00"
+      },
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:16:30.096692+00:00",
+        "state": 2,
+        "due": "2026-01-27T11:16:30.096692+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to go",
+    "answer": "ir",
+    "card_state": {
+      "card_id": 1769079389163,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-30T11:03:11.270559+00:00",
+      "last_review": "2026-01-22T11:03:11.270559+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.164502+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:03:11.270559+00:00",
+        "state": 2,
+        "due": "2026-01-30T11:03:11.270559+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to see",
+    "answer": "ver",
+    "card_state": {
+      "card_id": 1769079389164,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-02-02T11:03:15.587350+00:00",
+      "last_review": "2026-01-22T11:03:15.587350+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.166008+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:03:15.587350+00:00",
+        "state": 2,
+        "due": "2026-02-02T11:03:15.587350+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to give",
+    "answer": "dar",
+    "card_state": {
+      "card_id": 1769079389166,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-02-01T11:03:22.193097+00:00",
+      "last_review": "2026-01-22T11:03:22.193097+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.167549+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:03:22.193097+00:00",
+        "state": 2,
+        "due": "2026-02-01T11:03:22.193097+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to know (information)",
+    "answer": "saber",
+    "card_state": {
+      "card_id": 1769079389167,
+      "state": 2,
+      "step": null,
+      "stability": 3.946054067969477,
+      "difficulty": 1.0,
+      "due": "2026-01-28T11:16:34.347401+00:00",
+      "last_review": "2026-01-22T11:16:34.347401+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.169072+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:03:29.541043+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:13:29.541043+00:00"
+      },
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:16:34.347401+00:00",
+        "state": 2,
+        "due": "2026-01-28T11:16:34.347401+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to want, love",
+    "answer": "querer",
+    "card_state": {
+      "card_id": 1769079389169,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-28T11:03:34.710627+00:00",
+      "last_review": "2026-01-22T11:03:34.710627+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.170631+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:03:34.710627+00:00",
+        "state": 2,
+        "due": "2026-01-28T11:03:34.710627+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to arrive, come, reach",
+    "answer": "llegar",
+    "card_state": {
+      "card_id": 1769079389171,
+      "state": 2,
+      "step": null,
+      "stability": 2.3065,
+      "difficulty": 2.111214235785395,
+      "due": "2026-01-24T11:16:41.507114+00:00",
+      "last_review": "2026-01-22T11:16:41.507114+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.172198+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:04:11.159426+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:14:11.159426+00:00"
+      },
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:16:41.507114+00:00",
+        "state": 2,
+        "due": "2026-01-24T11:16:41.507114+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to pass, spend (time), to happen",
+    "answer": "pasar",
+    "card_state": {
+      "card_id": 1769079389172,
+      "state": 2,
+      "step": null,
+      "stability": 2.3065,
+      "difficulty": 2.111214235785395,
+      "due": "2026-01-24T11:16:49.582122+00:00",
+      "last_review": "2026-01-22T11:16:49.582122+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.173891+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:04:21.345691+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:14:21.345691+00:00"
+      },
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:16:49.582122+00:00",
+        "state": 2,
+        "due": "2026-01-24T11:16:49.582122+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to owe, must, should, ought to",
+    "answer": "deber",
+    "card_state": {
+      "card_id": 1769079389174,
+      "state": 2,
+      "step": null,
+      "stability": 3.946054067969477,
+      "difficulty": 1.0,
+      "due": "2026-01-26T11:16:54.768864+00:00",
+      "last_review": "2026-01-22T11:16:54.768864+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.175647+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:04:26.678484+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:14:26.678484+00:00"
+      },
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:16:54.768864+00:00",
+        "state": 2,
+        "due": "2026-01-26T11:16:54.768864+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to put, place, set",
+    "answer": "poner",
+    "card_state": {
+      "card_id": 1769079389176,
+      "state": 2,
+      "step": null,
+      "stability": 2.3065,
+      "difficulty": 2.111214235785395,
+      "due": "2026-01-24T11:17:01.535721+00:00",
+      "last_review": "2026-01-22T11:17:01.535721+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.177257+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:04:37.656804+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:14:37.656804+00:00"
+      },
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:17:01.535721+00:00",
+        "state": 2,
+        "due": "2026-01-24T11:17:01.535721+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to seem, appear",
+    "answer": "parecer",
+    "card_state": {
+      "card_id": 1769079389177,
+      "state": 1,
+      "step": 1,
+      "stability": 0.4997826535901225,
+      "difficulty": 8.365481854646477,
+      "due": "2026-01-22T11:27:11.636978+00:00",
+      "last_review": "2026-01-22T11:17:11.636978+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.178855+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:04:47.833256+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:10:17.833256+00:00"
+      },
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:14:49.212655+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:15:49.212655+00:00"
+      },
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:17:11.636978+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:27:11.636978+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to stay, remain",
+    "answer": "quedar",
+    "card_state": {
+      "card_id": 1769079389179,
+      "state": 1,
+      "step": 0,
+      "stability": 0.7765494494075704,
+      "difficulty": 6.7404595108297,
+      "due": "2026-01-22T11:20:31.522347+00:00",
+      "last_review": "2026-01-22T11:15:01.522347+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.180444+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:05:45.180462+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:11:15.180462+00:00"
+      },
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:15:01.522347+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:20:31.522347+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to believe",
+    "answer": "creer",
+    "card_state": {
+      "card_id": 1769079389180,
+      "state": 2,
+      "step": null,
+      "stability": 3.946054067969477,
+      "difficulty": 1.0,
+      "due": "2026-01-26T11:19:26.099392+00:00",
+      "last_review": "2026-01-22T11:19:26.099392+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.182052+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:05:50.967193+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:15:50.967193+00:00"
+      },
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:19:26.099392+00:00",
+        "state": 2,
+        "due": "2026-01-26T11:19:26.099392+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to speak",
+    "answer": "hablar",
+    "card_state": {
+      "card_id": 1769079389182,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-30T11:06:03.146845+00:00",
+      "last_review": "2026-01-22T11:06:03.146845+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.183666+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:06:03.146845+00:00",
+        "state": 2,
+        "due": "2026-01-30T11:06:03.146845+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to carry, bring",
+    "answer": "llevar",
+    "card_state": {
+      "card_id": 1769079389184,
+      "state": 1,
+      "step": 1,
+      "stability": 1.3358997622047517,
+      "difficulty": 5.102286904192293,
+      "due": "2026-01-22T11:25:06.126794+00:00",
+      "last_review": "2026-01-22T11:15:06.126794+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.185283+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:06:21.132197+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:11:51.132197+00:00"
+      },
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:15:06.126794+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:25:06.126794+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to leave, abandon, to let, allow",
+    "answer": "dejar",
+    "card_state": {
+      "card_id": 1769079389185,
+      "state": 1,
+      "step": 0,
+      "stability": 0.03485140985964798,
+      "difficulty": 9.592868765339693,
+      "due": "2026-01-22T11:20:43.701612+00:00",
+      "last_review": "2026-01-22T11:19:43.701612+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.186907+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:07:05.976946+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:08:05.976946+00:00"
+      },
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:15:17.418270+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:16:17.418270+00:00"
+      },
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:19:43.701612+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:20:43.701612+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to follow, continue",
+    "answer": "seguir",
+    "card_state": {
+      "card_id": 1769079389187,
+      "state": 2,
+      "step": null,
+      "stability": 2.3065,
+      "difficulty": 2.111214235785395,
+      "due": "2026-01-24T11:19:53.296960+00:00",
+      "last_review": "2026-01-22T11:19:53.296960+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.188589+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:07:31.791251+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:17:31.791251+00:00"
+      },
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:19:53.296960+00:00",
+        "state": 2,
+        "due": "2026-01-24T11:19:53.296960+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to find, encounter",
+    "answer": "encontrar",
+    "card_state": {
+      "card_id": 1769079389189,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-02-01T11:08:59.730519+00:00",
+      "last_review": "2026-01-22T11:08:59.730519+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.190477+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:08:59.730519+00:00",
+        "state": 2,
+        "due": "2026-02-01T11:08:59.730519+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to call, to name",
+    "answer": "llamar",
+    "card_state": {
+      "card_id": 1769079389191,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-30T11:09:05.623611+00:00",
+      "last_review": "2026-01-22T11:09:05.623611+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.192144+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:09:05.623611+00:00",
+        "state": 2,
+        "due": "2026-01-30T11:09:05.623611+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to come",
+    "answer": "venir",
+    "card_state": {
+      "card_id": 1769079389192,
+      "state": 1,
+      "step": 0,
+      "stability": 0.08335671711031604,
+      "difficulty": 8.806304468856837,
+      "due": "2026-01-22T11:21:02.880002+00:00",
+      "last_review": "2026-01-22T11:20:02.880002+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.193830+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:09:43.902481+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:10:43.902481+00:00"
+      },
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:20:02.880002+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:21:02.880002+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to think",
+    "answer": "pensar",
+    "card_state": {
+      "card_id": 1769079389194,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:20:11.480999+00:00",
+      "last_review": "2026-01-22T11:10:11.480999+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.195509+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:10:11.480999+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:20:11.480999+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to leave, go out",
+    "answer": "salir",
+    "card_state": {
+      "card_id": 1769079389196,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-02-01T11:10:15.248328+00:00",
+      "last_review": "2026-01-22T11:10:15.248328+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.197198+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:10:15.248328+00:00",
+        "state": 2,
+        "due": "2026-02-01T11:10:15.248328+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to return, go back",
+    "answer": "volver",
+    "card_state": {
+      "card_id": 1769079389197,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-31T11:10:20.995013+00:00",
+      "last_review": "2026-01-22T11:10:20.995013+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.198913+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:10:20.995013+00:00",
+        "state": 2,
+        "due": "2026-01-31T11:10:20.995013+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to take, drink",
+    "answer": "tomar",
+    "card_state": {
+      "card_id": 1769079389199,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:20:27.587951+00:00",
+      "last_review": "2026-01-22T11:10:27.587951+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.200656+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:10:27.587951+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:20:27.587951+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to know (people, places)",
+    "answer": "conocer",
+    "card_state": {
+      "card_id": 1769079389201,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:20:33.697733+00:00",
+      "last_review": "2026-01-22T11:10:33.697733+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.202616+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:10:33.697733+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:20:33.697733+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to live",
+    "answer": "vivir",
+    "card_state": {
+      "card_id": 1769079389203,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-31T11:20:05.842578+00:00",
+      "last_review": "2026-01-22T11:20:05.842578+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.204393+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:20:05.842578+00:00",
+        "state": 2,
+        "due": "2026-01-31T11:20:05.842578+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to feel, regret",
+    "answer": "sentir",
+    "card_state": {
+      "card_id": 1769079389205,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:30:14.671557+00:00",
+      "last_review": "2026-01-22T11:20:14.671557+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.206273+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:20:14.671557+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:30:14.671557+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to treat, handle",
+    "answer": "tratar",
+    "card_state": {
+      "card_id": 1769079389207,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:25:54.257021+00:00",
+      "last_review": "2026-01-22T11:20:24.257021+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.208124+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:20:24.257021+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:25:54.257021+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to watch, look at",
+    "answer": "mirar",
+    "card_state": {
+      "card_id": 1769079389208,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:30:29.162477+00:00",
+      "last_review": "2026-01-22T11:20:29.162477+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.209875+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:20:29.162477+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:30:29.162477+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to count, relate, tell",
+    "answer": "contar",
+    "card_state": {
+      "card_id": 1769079389210,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:26:08.260682+00:00",
+      "last_review": "2026-01-22T11:20:38.260682+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.211703+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:20:38.260682+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:26:08.260682+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to begin, start",
+    "answer": "empezar",
+    "card_state": {
+      "card_id": 1769079389212,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:30:48.611879+00:00",
+      "last_review": "2026-01-22T11:20:48.611879+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.213533+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:20:48.611879+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:30:48.611879+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to wait for, to hope",
+    "answer": "esperar",
+    "card_state": {
+      "card_id": 1769079389214,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:31:01.112580+00:00",
+      "last_review": "2026-01-22T11:21:01.112580+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.215332+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:21:01.112580+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:31:01.112580+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to search for, look for",
+    "answer": "buscar",
+    "card_state": {
+      "card_id": 1769079389216,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-30T11:21:06.198318+00:00",
+      "last_review": "2026-01-22T11:21:06.198318+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.217147+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:21:06.198318+00:00",
+        "state": 2,
+        "due": "2026-01-30T11:21:06.198318+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to exist",
+    "answer": "existir",
+    "card_state": {
+      "card_id": 1769079389217,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:26:53.962395+00:00",
+      "last_review": "2026-01-22T11:21:23.962395+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.218964+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:21:23.962395+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:26:53.962395+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to enter, go in, come in",
+    "answer": "entrar",
+    "card_state": {
+      "card_id": 1769079389219,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:31:28.192001+00:00",
+      "last_review": "2026-01-22T11:21:28.192001+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.220780+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:21:28.192001+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:31:28.192001+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to work",
+    "answer": "trabajar",
+    "card_state": {
+      "card_id": 1769079389221,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-28T11:21:31.982478+00:00",
+      "last_review": "2026-01-22T11:21:31.982478+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.222726+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:21:31.982478+00:00",
+        "state": 2,
+        "due": "2026-01-28T11:21:31.982478+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to write",
+    "answer": "escribir",
+    "card_state": {
+      "card_id": 1769079389223,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-02-01T11:21:36.408061+00:00",
+      "last_review": "2026-01-22T11:21:36.408061+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.224734+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:21:36.408061+00:00",
+        "state": 2,
+        "due": "2026-02-01T11:21:36.408061+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to lose",
+    "answer": "perder",
+    "card_state": {
+      "card_id": 1769079389225,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:22:48.049642+00:00",
+      "last_review": "2026-01-22T11:21:48.049642+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.226575+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:21:48.049642+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:22:48.049642+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to produce",
+    "answer": "producir",
+    "card_state": {
+      "card_id": 1769079389227,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:27:25.234579+00:00",
+      "last_review": "2026-01-22T11:21:55.234579+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.228419+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:21:55.234579+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:27:25.234579+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to occur, happen",
+    "answer": "ocurrir",
+    "card_state": {
+      "card_id": 1769079389229,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:23:15.611241+00:00",
+      "last_review": "2026-01-22T11:22:15.611241+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.230288+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:22:15.611241+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:23:15.611241+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to understand",
+    "answer": "entender",
+    "card_state": {
+      "card_id": 1769079389231,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:27:53.701305+00:00",
+      "last_review": "2026-01-22T11:22:23.701305+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.232231+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:22:23.701305+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:27:53.701305+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to request, ask for",
+    "answer": "pedir",
+    "card_state": {
+      "card_id": 1769079389233,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:23:37.639953+00:00",
+      "last_review": "2026-01-22T11:22:37.639953+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.234291+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:22:37.639953+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:23:37.639953+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to receive, to welcome, greet",
+    "answer": "recibir",
+    "card_state": {
+      "card_id": 1769079389235,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:32:44.576232+00:00",
+      "last_review": "2026-01-22T11:22:44.576232+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.236379+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:22:44.576232+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:32:44.576232+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to remember, remind",
+    "answer": "recordar",
+    "card_state": {
+      "card_id": 1769079389238,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:24:02.847202+00:00",
+      "last_review": "2026-01-22T11:23:02.847202+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.239713+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:23:02.847202+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:24:02.847202+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to finish, end",
+    "answer": "terminar",
+    "card_state": {
+      "card_id": 1769079389240,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:33:16.279000+00:00",
+      "last_review": "2026-01-22T11:23:16.279000+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.241954+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:23:16.279000+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:33:16.279000+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to permit, allow",
+    "answer": "permitir",
+    "card_state": {
+      "card_id": 1769079389242,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:33:21.667726+00:00",
+      "last_review": "2026-01-22T11:23:21.667726+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.244008+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:23:21.667726+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:33:21.667726+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to appear, show up",
+    "answer": "aparecer",
+    "card_state": {
+      "card_id": 1769079389244,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:29:06.738126+00:00",
+      "last_review": "2026-01-22T11:23:36.738126+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.246007+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:23:36.738126+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:29:06.738126+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to get, obtain",
+    "answer": "conseguir",
+    "card_state": {
+      "card_id": 1769079389246,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:24:47.066019+00:00",
+      "last_review": "2026-01-22T11:23:47.066019+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.248009+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:23:47.066019+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:24:47.066019+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to begin, start, commence",
+    "answer": "comenzar",
+    "card_state": {
+      "card_id": 1769079389248,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:24:56.701415+00:00",
+      "last_review": "2026-01-22T11:23:56.701415+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.249980+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:23:56.701415+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:24:56.701415+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to serve",
+    "answer": "servir",
+    "card_state": {
+      "card_id": 1769079389250,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:29:33.713183+00:00",
+      "last_review": "2026-01-22T11:24:03.713183+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.251988+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:24:03.713183+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:29:33.713183+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to take out, stick out",
+    "answer": "sacar",
+    "card_state": {
+      "card_id": 1769079389252,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:25:20.148345+00:00",
+      "last_review": "2026-01-22T11:24:20.148345+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.254040+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:24:20.148345+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:25:20.148345+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to need, require",
+    "answer": "necesitar",
+    "card_state": {
+      "card_id": 1769079389255,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-02-02T11:24:30.417602+00:00",
+      "last_review": "2026-01-22T11:24:30.417602+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.256210+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:24:30.417602+00:00",
+        "state": 2,
+        "due": "2026-02-02T11:24:30.417602+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to maintain, get",
+    "answer": "mantener",
+    "card_state": {
+      "card_id": 1769079389257,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:25:50.947225+00:00",
+      "last_review": "2026-01-22T11:24:50.947225+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.258262+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:24:50.947225+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:25:50.947225+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to turn out (to be)",
+    "answer": "resultar",
+    "card_state": {
+      "card_id": 1769079389259,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:26:03.314365+00:00",
+      "last_review": "2026-01-22T11:25:03.314365+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.260279+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:25:03.314365+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:26:03.314365+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to read",
+    "answer": "leer",
+    "card_state": {
+      "card_id": 1769079389261,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-02-01T11:25:07.728340+00:00",
+      "last_review": "2026-01-22T11:25:07.728340+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.262336+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:25:07.728340+00:00",
+        "state": 2,
+        "due": "2026-02-01T11:25:07.728340+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to fall",
+    "answer": "caer",
+    "card_state": {
+      "card_id": 1769079389263,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:26:17.064597+00:00",
+      "last_review": "2026-01-22T11:25:17.064597+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.264387+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:25:17.064597+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:26:17.064597+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to change",
+    "answer": "cambiar",
+    "card_state": {
+      "card_id": 1769079389265,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:30:53.958359+00:00",
+      "last_review": "2026-01-22T11:25:23.958359+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.266470+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:25:23.958359+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:30:53.958359+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to introduce",
+    "answer": "presentar",
+    "card_state": {
+      "card_id": 1769079389267,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:30:59.319060+00:00",
+      "last_review": "2026-01-22T11:25:29.319060+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.268512+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:25:29.319060+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:30:59.319060+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to create, to make",
+    "answer": "crear",
+    "card_state": {
+      "card_id": 1769079389269,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:26:41.540755+00:00",
+      "last_review": "2026-01-22T11:25:41.540755+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.270639+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:25:41.540755+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:26:41.540755+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to open",
+    "answer": "abrir",
+    "card_state": {
+      "card_id": 1769079389271,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-28T11:25:44.999176+00:00",
+      "last_review": "2026-01-22T11:25:44.999176+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.272852+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:25:44.999176+00:00",
+        "state": 2,
+        "due": "2026-01-28T11:25:44.999176+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to consider",
+    "answer": "considerar",
+    "card_state": {
+      "card_id": 1769079389273,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:31:21.533924+00:00",
+      "last_review": "2026-01-22T11:25:51.533924+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.274946+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:25:51.533924+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:31:21.533924+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to hear",
+    "answer": "o\u00edr",
+    "card_state": {
+      "card_id": 1769079389275,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:36:01.472605+00:00",
+      "last_review": "2026-01-22T11:26:01.472605+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.277037+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:26:01.472605+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:36:01.472605+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to finish, end",
+    "answer": "acabar",
+    "card_state": {
+      "card_id": 1769079389278,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:27:11.066501+00:00",
+      "last_review": "2026-01-22T11:26:11.066501+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.279100+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:26:11.066501+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:27:11.066501+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to convert, change",
+    "answer": "convertir",
+    "card_state": {
+      "card_id": 1769079389280,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:32:00.761071+00:00",
+      "last_review": "2026-01-22T11:26:30.761071+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.281213+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:26:30.761071+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:32:00.761071+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to win, gain, earn, get, acquire",
+    "answer": "ganar",
+    "card_state": {
+      "card_id": 1769079389282,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:36:36.289780+00:00",
+      "last_review": "2026-01-22T11:26:36.289780+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.283367+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:26:36.289780+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:36:36.289780+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to form, shape, fashion, make",
+    "answer": "formar",
+    "card_state": {
+      "card_id": 1769079389284,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:36:44.461998+00:00",
+      "last_review": "2026-01-22T11:26:44.461998+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.285586+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:26:44.461998+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:36:44.461998+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to bring, to get, fetch, to carry",
+    "answer": "traer",
+    "card_state": {
+      "card_id": 1769079389286,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:28:02.409242+00:00",
+      "last_review": "2026-01-22T11:27:02.409242+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.287757+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:27:02.409242+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:28:02.409242+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to divide, to leave",
+    "answer": "partir",
+    "card_state": {
+      "card_id": 1769079389289,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:37:08.213934+00:00",
+      "last_review": "2026-01-22T11:27:08.213934+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.290207+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:27:08.213934+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:37:08.213934+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to die",
+    "answer": "morir",
+    "card_state": {
+      "card_id": 1769079389291,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-31T11:27:11.226313+00:00",
+      "last_review": "2026-01-22T11:27:11.226313+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.292447+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:27:11.226313+00:00",
+        "state": 2,
+        "due": "2026-01-31T11:27:11.226313+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to accept, approve, to agree to",
+    "answer": "aceptar",
+    "card_state": {
+      "card_id": 1769079389293,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:32:51.312567+00:00",
+      "last_review": "2026-01-22T11:27:21.312567+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.294629+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:27:21.312567+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:32:51.312567+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to achieve, attain, accomplish",
+    "answer": "realizar",
+    "card_state": {
+      "card_id": 1769079389295,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:33:00.238034+00:00",
+      "last_review": "2026-01-22T11:27:30.238034+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.296851+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:27:30.238034+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:33:00.238034+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to suppose",
+    "answer": "suponer",
+    "card_state": {
+      "card_id": 1769079389297,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:28:50.118401+00:00",
+      "last_review": "2026-01-22T11:27:50.118401+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.299086+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:27:50.118401+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:28:50.118401+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to understand, comprehend",
+    "answer": "comprender",
+    "card_state": {
+      "card_id": 1769079389300,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:37:58.390558+00:00",
+      "last_review": "2026-01-22T11:27:58.390558+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.301304+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:27:58.390558+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:37:58.390558+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to get, obtain, to achieve, attain",
+    "answer": "lograr",
+    "card_state": {
+      "card_id": 1769079389302,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:29:18.987964+00:00",
+      "last_review": "2026-01-22T11:28:18.987964+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.303559+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:28:18.987964+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:29:18.987964+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to explain",
+    "answer": "explicar",
+    "card_state": {
+      "card_id": 1769079389304,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:29:34.883122+00:00",
+      "last_review": "2026-01-22T11:28:34.883122+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.305901+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:28:34.883122+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:29:34.883122+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to ask, inquire",
+    "answer": "preguntar",
+    "card_state": {
+      "card_id": 1769079389307,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:29:51.851331+00:00",
+      "last_review": "2026-01-22T11:28:51.851331+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.308258+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:28:51.851331+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:29:51.851331+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to touch, to play (an instrument)",
+    "answer": "tocar",
+    "card_state": {
+      "card_id": 1769079389309,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-30T11:28:55.905821+00:00",
+      "last_review": "2026-01-22T11:28:55.905821+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.310466+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:28:55.905821+00:00",
+        "state": 2,
+        "due": "2026-01-30T11:28:55.905821+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to recognize",
+    "answer": "reconocer",
+    "card_state": {
+      "card_id": 1769079389311,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:39:15.310507+00:00",
+      "last_review": "2026-01-22T11:29:15.310507+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.312775+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:29:15.310507+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:39:15.310507+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to study",
+    "answer": "estudiar",
+    "card_state": {
+      "card_id": 1769079389314,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-30T11:29:20.902991+00:00",
+      "last_review": "2026-01-22T11:29:20.902991+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.315216+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:29:20.902991+00:00",
+        "state": 2,
+        "due": "2026-01-30T11:29:20.902991+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to reach, catch up",
+    "answer": "alcanzar",
+    "card_state": {
+      "card_id": 1769079389316,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:30:33.325645+00:00",
+      "last_review": "2026-01-22T11:29:33.325645+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.317523+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:29:33.325645+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:30:33.325645+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to be born",
+    "answer": "nacer",
+    "card_state": {
+      "card_id": 1769079389318,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:39:40.691625+00:00",
+      "last_review": "2026-01-22T11:29:40.691625+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.319845+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:29:40.691625+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:39:40.691625+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to direct",
+    "answer": "dirigir",
+    "card_state": {
+      "card_id": 1769079389321,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:30:50.996040+00:00",
+      "last_review": "2026-01-22T11:29:50.996040+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.322242+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:29:50.996040+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:30:50.996040+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to run",
+    "answer": "correr",
+    "card_state": {
+      "card_id": 1769079389325,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-31T11:29:56.012585+00:00",
+      "last_review": "2026-01-22T11:29:56.012585+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.326214+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:29:56.012585+00:00",
+        "state": 2,
+        "due": "2026-01-31T11:29:56.012585+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to use, utilize",
+    "answer": "utilizar",
+    "card_state": {
+      "card_id": 1769079389327,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:31:08.536112+00:00",
+      "last_review": "2026-01-22T11:30:08.536112+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.328585+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:30:08.536112+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:31:08.536112+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to pay, pay for",
+    "answer": "pagar",
+    "card_state": {
+      "card_id": 1769079389329,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:40:13.858991+00:00",
+      "last_review": "2026-01-22T11:30:13.858991+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.330884+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:30:13.858991+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:40:13.858991+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to help",
+    "answer": "ayudar",
+    "card_state": {
+      "card_id": 1769079389332,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-01-28T11:30:17.283417+00:00",
+      "last_review": "2026-01-22T11:30:17.283417+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.333248+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:30:17.283417+00:00",
+        "state": 2,
+        "due": "2026-01-28T11:30:17.283417+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to please, be pleasing",
+    "answer": "gustar",
+    "card_state": {
+      "card_id": 1769079389334,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:31:34.836544+00:00",
+      "last_review": "2026-01-22T11:30:34.836544+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.335667+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:30:34.836544+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:31:34.836544+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to play (a game or sport)",
+    "answer": "jugar",
+    "card_state": {
+      "card_id": 1769079389337,
+      "state": 2,
+      "step": null,
+      "stability": 8.2956,
+      "difficulty": 1.0,
+      "due": "2026-02-01T11:30:40.739346+00:00",
+      "last_review": "2026-01-22T11:30:40.739346+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.338196+00:00",
+    "reviews": [
+      {
+        "rating": 4,
+        "reviewed_at": "2026-01-22T11:30:40.739346+00:00",
+        "state": 2,
+        "due": "2026-02-01T11:30:40.739346+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to listen, hear",
+    "answer": "escuchar",
+    "card_state": {
+      "card_id": 1769079389339,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:40:49.955604+00:00",
+      "last_review": "2026-01-22T11:30:49.955604+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.340867+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:30:49.955604+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:40:49.955604+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to fulfill, carry out",
+    "answer": "cumplir",
+    "card_state": {
+      "card_id": 1769079389342,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:32:07.923752+00:00",
+      "last_review": "2026-01-22T11:31:07.923752+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.343288+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:31:07.923752+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:32:07.923752+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to offer",
+    "answer": "ofrecer",
+    "card_state": {
+      "card_id": 1769079389344,
+      "state": 1,
+      "step": 0,
+      "stability": 1.2931,
+      "difficulty": 5.112170705601056,
+      "due": "2026-01-22T11:36:47.849006+00:00",
+      "last_review": "2026-01-22T11:31:17.849006+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.345751+00:00",
+    "reviews": [
+      {
+        "rating": 2,
+        "reviewed_at": "2026-01-22T11:31:17.849006+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:36:47.849006+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to discover",
+    "answer": "descubrir",
+    "card_state": {
+      "card_id": 1769079389347,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:32:28.314426+00:00",
+      "last_review": "2026-01-22T11:31:28.314426+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.348193+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:31:28.314426+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:32:28.314426+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to raise, to lift",
+    "answer": "levantar",
+    "card_state": {
+      "card_id": 1769079389349,
+      "state": 1,
+      "step": 0,
+      "stability": 0.212,
+      "difficulty": 6.4133,
+      "due": "2026-01-22T11:32:35.613571+00:00",
+      "last_review": "2026-01-22T11:31:35.613571+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.350718+00:00",
+    "reviews": [
+      {
+        "rating": 1,
+        "reviewed_at": "2026-01-22T11:31:35.613571+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:32:35.613571+00:00"
+      }
+    ]
+  },
+  {
+    "question": "to try, attempt",
+    "answer": "intentar",
+    "card_state": {
+      "card_id": 1769079389352,
+      "state": 1,
+      "step": 1,
+      "stability": 2.3065,
+      "difficulty": 2.118103970459016,
+      "due": "2026-01-22T11:41:42.997588+00:00",
+      "last_review": "2026-01-22T11:31:42.997588+00:00"
+    },
+    "created_at": "2026-01-22T10:56:29.353177+00:00",
+    "reviews": [
+      {
+        "rating": 3,
+        "reviewed_at": "2026-01-22T11:31:42.997588+00:00",
+        "state": 1,
+        "due": "2026-01-22T11:41:42.997588+00:00"
+      }
+    ]
+  }
+]
