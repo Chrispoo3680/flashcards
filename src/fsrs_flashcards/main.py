@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Dict, List
 
 from fsrs import Card, Rating, Scheduler, State
+from InquirerPy import inquirer
 from rich.console import Console
 from rich.panel import Panel
 from rich.prompt import Prompt
@@ -17,29 +18,32 @@ from rich.table import Table
 # Initialize console for pretty output
 console = Console()
 
-# Data file to store flashcards
-DATA_FILE = Path(__file__).parent.parent.parent / "data/flashcards.json"
+# Data directory path
+DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
 
 class FlashcardManager:
     """Manages flashcards with FSRS scheduling."""
 
-    def __init__(self):
+    def __init__(self, data_file: Path):
         self.scheduler = Scheduler()
         self.flashcards: List[Dict] = []
+        self.data_file = data_file
         self.load_flashcards()
 
     def load_flashcards(self):
         """Load flashcards from JSON file."""
-        if DATA_FILE.exists():
-            with open(DATA_FILE, "r") as f:
+        if self.data_file.exists():
+            with open(self.data_file, "r") as f:
                 self.flashcards = json.load(f)
         else:
             self.flashcards = []
 
     def save_flashcards(self):
         """Save flashcards to JSON file."""
-        with open(DATA_FILE, "w") as f:
+        # Ensure data directory exists
+        self.data_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(self.data_file, "w") as f:
             json.dump(self.flashcards, f, indent=2)
 
     def add_flashcard(self, question: str, answer: str):
@@ -312,41 +316,107 @@ class FlashcardManager:
         console.print(f"  Relearning: {state_counts[State.Relearning]}\n")
 
 
-def main():
-    """Main application loop."""
-    manager = FlashcardManager()
+def get_available_flashcard_files() -> List[Path]:
+    """Get list of available JSON flashcard files in data directory."""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    json_files = sorted(DATA_DIR.glob("*.json"))
+    return json_files
+
+
+def select_flashcard_file() -> Path:
+    """Let user select which flashcard file to use with arrow keys."""
+    available_files = get_available_flashcard_files()
 
     console.print("\n[bold cyan]🎴 FSRS Flashcard App[/bold cyan]")
     console.print("[dim]Spaced repetition that adapts to your learning[/dim]\n")
 
+    if not available_files:
+        console.print("[yellow]No flashcard files found in data directory.[/yellow]")
+        filename = Prompt.ask(
+            "\n[cyan]Enter name for new flashcard file[/cyan]",
+            default="flashcards.json",
+        )
+        if not filename.endswith(".json"):
+            filename += ".json"
+        return DATA_DIR / filename
+
+    # Create menu choices with file info
+    choices = []
+    for file in available_files:
+        try:
+            with open(file, "r") as f:
+                cards = json.load(f)
+                card_count = len(cards)
+            choices.append({"name": f"{file.name} ({card_count} cards)", "value": file})
+        except:
+            choices.append({"name": file.name, "value": file})
+
+    # Add "Create new file" option
+    choices.append({"name": "➕ Create new file", "value": "new"})
+
+    # Use arrow key menu
+    selection = inquirer.select(
+        message="Select flashcard file (use arrow keys):",
+        choices=choices,
+        default=choices[0],
+    ).execute()
+
+    if selection == "new":
+        filename = Prompt.ask(
+            "\n[cyan]Enter name for new flashcard file[/cyan]",
+            default="flashcards.json",
+        )
+        if not filename.endswith(".json"):
+            filename += ".json"
+        new_file = DATA_DIR / filename
+        console.print(f"\n[green]✓[/green] Creating: {new_file.name}\n")
+        return new_file
+    else:
+        console.print(f"\n[green]✓[/green] Using: {selection.name}\n")
+        return selection
+
+
+def main():
+    """Main application loop."""
+    data_file = select_flashcard_file()
+    manager = FlashcardManager(data_file)
+
     while True:
-        console.print("[bold]What would you like to do?[/bold]")
-        console.print("  1. Study due cards")
-        console.print("  2. Add new flashcard")
-        console.print("  3. List all flashcards")
-        console.print("  4. Show statistics")
-        console.print("  5. Exit")
+        console.print()
+        choice = inquirer.select(
+            message="What would you like to do?",
+            choices=[
+                {"name": "📖 Study due cards", "value": "study"},
+                {"name": "➕ Add new flashcard", "value": "add"},
+                {"name": "📋 List all flashcards", "value": "list"},
+                {"name": "📊 Show statistics", "value": "stats"},
+                {"name": "🔄 Change flashcard file", "value": "change_file"},
+                {"name": "🚪 Exit", "value": "exit"},
+            ],
+        ).execute()
 
-        choice = Prompt.ask("\nChoice", choices=["1", "2", "3", "4", "5"])
-
-        if choice == "1":
+        if choice == "study":
             manager.study_session()
 
-        elif choice == "2":
+        elif choice == "add":
             question = Prompt.ask("\n[cyan]Question[/cyan]")
             answer = Prompt.ask("[green]Answer[/green]")
             manager.add_flashcard(question, answer)
             console.print()
 
-        elif choice == "3":
+        elif choice == "list":
             console.print()
             manager.list_flashcards()
             console.print()
 
-        elif choice == "4":
+        elif choice == "stats":
             manager.show_statistics()
 
-        elif choice == "5":
+        elif choice == "change_file":
+            data_file = select_flashcard_file()
+            manager = FlashcardManager(data_file)
+
+        elif choice == "exit":
             console.print("\n[cyan]Happy learning! 📚[/cyan]\n")
             break
 

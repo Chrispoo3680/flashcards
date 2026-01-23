@@ -10,10 +10,11 @@ from pathlib import Path
 repo_root = Path(__file__).parent.parent.parent
 sys.path.append(str(repo_root))
 
+from InquirerPy import inquirer
 from rich.console import Console
 from rich.prompt import Prompt
 
-from src.fsrs_flashcards.main import FlashcardManager
+from src.fsrs_flashcards.main import FlashcardManager, select_flashcard_file
 
 console = Console()
 
@@ -129,29 +130,37 @@ def create_sample_csv(delimiter: str = ","):
 if __name__ == "__main__":
     console.print("[bold cyan]CSV Import/Export Tool[/bold cyan]\n")
 
-    manager = FlashcardManager()
+    # Let user select which flashcard file to work with
+    data_file = select_flashcard_file()
+    manager = FlashcardManager(data_file)
 
     while True:
-        console.print("[bold]What would you like to do?[/bold]")
-        console.print("  1. Create sample CSV file")
-        console.print("  2. Import flashcards from CSV")
-        console.print("  3. Export flashcards to CSV")
-        console.print("  4. Exit")
+        console.print()
+        choice = inquirer.select(
+            message="What would you like to do?",
+            choices=[
+                {"name": "📝 Create sample CSV file", "value": "create"},
+                {"name": "📥 Import flashcards from CSV", "value": "import"},
+                {"name": "📤 Export flashcards to CSV", "value": "export"},
+                {"name": "🔄 Switch flashcard file", "value": "switch"},
+                {"name": "🚪 Exit", "value": "exit"},
+            ],
+        ).execute()
 
-        choice = Prompt.ask("\nChoice", choices=["1", "2", "3", "4"])
-
-        if choice == "1":
-            delimiter_choice = Prompt.ask(
-                "\n[cyan]Delimiter[/cyan]",
-                choices=["comma", "semicolon"],
-                default="comma",
-            )
-            delimiter = ";" if delimiter_choice == "semicolon" else ","
+        if choice == "create":
+            delimiter = inquirer.select(
+                message="Select delimiter:",
+                choices=[
+                    {"name": "Comma (,)", "value": ","},
+                    {"name": "Semicolon (;)", "value": ";"},
+                ],
+                default=",",
+            ).execute()
             console.print("\n[bold]Creating sample CSV...[/bold]")
             create_sample_csv(delimiter)
             console.print()
 
-        elif choice == "2":
+        elif choice == "import":
             filename = Prompt.ask(
                 "\n[cyan]CSV file to import from[/cyan]",
                 default="sample_flashcards.csv",
@@ -160,7 +169,7 @@ if __name__ == "__main__":
             import_from_csv(filename, manager)
             console.print()
 
-        elif choice == "3":
+        elif choice == "export":
             if not manager.flashcards:
                 console.print(
                     "\n[yellow]No flashcards to export. Import or add some first![/yellow]\n"
@@ -170,16 +179,23 @@ if __name__ == "__main__":
                     "\n[green]CSV file to export to[/green]",
                     default="flashcards_backup.csv",
                 )
-                delimiter_choice = Prompt.ask(
-                    "[cyan]Delimiter[/cyan]",
-                    choices=["comma", "semicolon"],
-                    default="comma",
-                )
-                delimiter = ";" if delimiter_choice == "semicolon" else ","
+                delimiter = inquirer.select(
+                    message="Select delimiter:",
+                    choices=[
+                        {"name": "Comma (,)", "value": ","},
+                        {"name": "Semicolon (;)", "value": ";"},
+                    ],
+                    default=",",
+                ).execute()
                 console.print(f"\n[bold]Exporting to {filename}...[/bold]")
                 export_to_csv(filename, manager, delimiter)
                 console.print()
 
-        elif choice == "4":
+        elif choice == "switch":
+            console.print("\n[bold cyan]Switching flashcard file...[/bold cyan]")
+            data_file = select_flashcard_file()
+            manager = FlashcardManager(data_file)
+
+        elif choice == "exit":
             console.print("\n[cyan]Done! 📁[/cyan]\n")
             break
