@@ -132,6 +132,9 @@ if __name__ == "__main__":
 
     # Let user select which flashcard file to work with
     data_file = select_flashcard_file()
+    if data_file is None:
+        console.print("\n[yellow]No file selected. Exiting.[/yellow]\n")
+        raise SystemExit(0)
     manager = FlashcardManager(data_file)
 
     while True:
@@ -194,7 +197,10 @@ if __name__ == "__main__":
         elif choice == "switch":
             console.print("\n[bold cyan]Switching flashcard file...[/bold cyan]")
             data_file = select_flashcard_file()
-            manager = FlashcardManager(data_file)
+            if data_file is not None:
+                manager = FlashcardManager(data_file)
+            else:
+                console.print("[yellow]Keeping current flashcard file.[/yellow]")
 
         elif choice == "exit":
             console.print("\n[cyan]Done! 📁[/cyan]\n")

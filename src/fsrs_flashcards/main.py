@@ -6,7 +6,7 @@ FSRS adapts review intervals based on your performance, optimizing learning.
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 from fsrs import Card, Rating, Scheduler, State
 from InquirerPy import inquirer
@@ -323,55 +323,74 @@ def get_available_flashcard_files() -> List[Path]:
     return json_files
 
 
-def select_flashcard_file() -> Path:
+def _normalize_json_filename(filename: str) -> str:
+    cleaned = filename.strip()
+    if not cleaned:
+        return ""
+    if cleaned.lower().endswith(".json"):
+        return cleaned
+    return f"{cleaned}.json"
+
+
+def _prompt_new_flashcard_file() -> Optional[Path]:
+    filename = Prompt.ask(
+        "\n[cyan]Enter name for new flashcard file[/cyan] (press Enter to cancel)",
+    )
+    normalized = _normalize_json_filename(filename)
+    if not normalized:
+        console.print("[yellow]Cancelled file creation.[/yellow]")
+        return None
+    return DATA_DIR / normalized
+
+
+def select_flashcard_file() -> Optional[Path]:
     """Let user select which flashcard file to use with arrow keys."""
-    available_files = get_available_flashcard_files()
+    while True:
+        available_files = get_available_flashcard_files()
 
-    console.print("\n[bold cyan]🎴 FSRS Flashcard App[/bold cyan]")
-    console.print("[dim]Spaced repetition that adapts to your learning[/dim]\n")
+        console.print("\n[bold cyan]🎴 FSRS Flashcard App[/bold cyan]")
+        console.print("[dim]Spaced repetition that adapts to your learning[/dim]\n")
 
-    if not available_files:
-        console.print("[yellow]No flashcard files found in data directory.[/yellow]")
-        filename = Prompt.ask(
-            "\n[cyan]Enter name for new flashcard file[/cyan]",
-            default="flashcards.json",
-        )
-        if not filename.endswith(".json"):
-            filename += ".json"
-        return DATA_DIR / filename
+        if not available_files:
+            console.print(
+                "[yellow]No flashcard files found in data directory.[/yellow]"
+            )
+            new_file = _prompt_new_flashcard_file()
+            return new_file
 
-    # Create menu choices with file info
-    choices = []
-    for file in available_files:
-        try:
-            with open(file, "r") as f:
-                cards = json.load(f)
-                card_count = len(cards)
-            choices.append({"name": f"{file.name} ({card_count} cards)", "value": file})
-        except:
-            choices.append({"name": file.name, "value": file})
+        # Create menu choices with file info
+        choices = []
+        for file in available_files:
+            try:
+                with open(file, "r") as f:
+                    cards = json.load(f)
+                    card_count = len(cards)
+                choices.append(
+                    {"name": f"{file.name} ({card_count} cards)", "value": file}
+                )
+            except:
+                choices.append({"name": file.name, "value": file})
 
-    # Add "Create new file" option
-    choices.append({"name": "➕ Create new file", "value": "new"})
+        # Add "Create new file" option
+        choices.append({"name": "➕ Create new file", "value": "new"})
+        choices.append({"name": "Cancel", "value": "cancel"})
 
-    # Use arrow key menu
-    selection = inquirer.select(
-        message="Select flashcard file (use arrow keys):",
-        choices=choices,
-        default=choices[0],
-    ).execute()
+        # Use arrow key menu
+        selection = inquirer.select(
+            message="Select flashcard file (use arrow keys):",
+            choices=choices,
+            default=choices[0],
+        ).execute()
 
-    if selection == "new":
-        filename = Prompt.ask(
-            "\n[cyan]Enter name for new flashcard file[/cyan]",
-            default="flashcards.json",
-        )
-        if not filename.endswith(".json"):
-            filename += ".json"
-        new_file = DATA_DIR / filename
-        console.print(f"\n[green]✓[/green] Creating: {new_file.name}\n")
-        return new_file
-    else:
+        if selection == "new":
+            new_file = _prompt_new_flashcard_file()
+            if new_file is None:
+                continue
+            console.print(f"\n[green]✓[/green] Creating: {new_file.name}\n")
+            return new_file
+        if selection == "cancel":
+            console.print("[yellow]File selection cancelled.[/yellow]")
+            return None
         console.print(f"\n[green]✓[/green] Using: {selection.name}\n")
         return selection
 
@@ -379,6 +398,9 @@ def select_flashcard_file() -> Path:
 def main():
     """Main application loop."""
     data_file = select_flashcard_file()
+    if data_file is None:
+        console.print("\n[yellow]No file selected. Exiting.[/yellow]\n")
+        return
     manager = FlashcardManager(data_file)
 
     while True:
@@ -414,7 +436,10 @@ def main():
 
         elif choice == "change_file":
             data_file = select_flashcard_file()
-            manager = FlashcardManager(data_file)
+            if data_file is not None:
+                manager = FlashcardManager(data_file)
+            else:
+                console.print("[yellow]Keeping current flashcard file.[/yellow]")
 
         elif choice == "exit":
             console.print("\n[cyan]Happy learning! 📚[/cyan]\n")
