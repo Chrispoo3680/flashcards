@@ -105,9 +105,9 @@ The importer accepts both comma `,` and semicolon `;` separators. If you use sem
 question;answer
 ```
 
-**Step 2: Place the CSV file in the project folder**
+**Step 2: Place the CSV file in the projects `data/` folder**
 
-Save the file anywhere inside the project (the main folder). For example: `my_cards.csv`.
+Save the file inside the `data/` folder inside the the project (the main folder). For example: `my_cards.csv`.
 
 **Step 3: Run the CSV import tool**
 

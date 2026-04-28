@@ -422,7 +422,15 @@ def main():
 
         elif choice == "add":
             question = Prompt.ask("\n[cyan]Question[/cyan]")
+            if not question.strip():
+                console.print("[yellow]Cancelled: question cannot be empty.[/yellow]")
+                console.print()
+                continue
             answer = Prompt.ask("[green]Answer[/green]")
+            if not answer.strip():
+                console.print("[yellow]Cancelled: answer cannot be empty.[/yellow]")
+                console.print()
+                continue
             manager.add_flashcard(question, answer)
             console.print()
 

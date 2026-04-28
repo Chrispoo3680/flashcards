@@ -10,6 +10,8 @@ from pathlib import Path
 repo_root = Path(__file__).parent.parent.parent
 sys.path.append(str(repo_root))
 
+DATA_DIR = repo_root / "data"
+
 from InquirerPy import inquirer
 from rich.console import Console
 from rich.prompt import Prompt
@@ -30,6 +32,11 @@ def import_from_csv(csv_file: str, manager: FlashcardManager):
     "What is FSRS?","Free Spaced Repetition Scheduler"
     """
     csv_path = Path(csv_file)
+    if not csv_path.is_absolute():
+        if csv_path.parts and csv_path.parts[0] == "data":
+            csv_path = repo_root / csv_path
+        else:
+            csv_path = DATA_DIR / csv_path
 
     if not csv_path.exists():
         console.print(f"[red]Error: File {csv_file} not found[/red]")
